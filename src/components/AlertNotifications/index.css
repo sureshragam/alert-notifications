@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.notifications-list-container {
+  padding-left: 0;
+  width: 40%;
+  margin: auto;
+  padding: 10px 15px;
+}
+.alert-notifications-container > h1 {
+  text-align: center;
+  font-size: 50px;
+}

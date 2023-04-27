@@ -1,0 +1,45 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #e5e5e5;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+li > div > p {
+  color: #475569;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+button {
+  color: #0f172a;
+  background-color: transparent;
+  padding: 0;
+  border-style: none;
+  margin-left: auto;
+  cursor: pointer;
+}
+.cross-icon {
+  width: 20px;
+  height: 20px;
+}
